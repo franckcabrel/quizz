@@ -1,0 +1,45 @@
+.petitmots {
+    color: blue;
+    margin-right: 62%;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Satisfy');
+  
+  body {
+      font-size:16px;
+      font-family: 'Roboto Slab', serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      background-color: #90cde3;
+  }
+  
+  article {
+      width: 70%;
+      margin: 40px auto 0 auto;
+      padding: 20px;
+      position: relative;
+  }
+  
+  h1 {
+      font-size: 3.85em;
+      margin: 0 0 .5em 0;
+      font-family: 'Satisfy', cursive;
+  }
+  
+  
+  @keyframes clouds_animation {
+    0%  {background-position: 0 0;}
+    100%  {background-position: -2122px 0;}
+  }
+  
+  .vanelle{
+    width: 500px;
+    border-radius: .5em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .franck{
+    margin-right: 15%;
+    list-style  : none;
+  }

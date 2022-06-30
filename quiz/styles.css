@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://fac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ffac.2F2019.2F10.2F29.2F44cde72d-e1bd-48fd-99f6-3ee45fa109df.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgaVN0b2NrIC8gRmVtbWUgQWN0dWVsbGU%3D/hopital-infrastructures-medicales-les-5-villes-de-france-ou-l-on-est-le-mieux-soigne.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: 190px;
+}
+
+#container {
+    margin: 0 auto;
+    margin-top: 10%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 350px;
+    padding: 80px 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Bordered form */
+
+form {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #383bf0;
+    background: rgb(78, 76, 76);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+#container h1 {
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+#container.inscription {
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    background: red;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
